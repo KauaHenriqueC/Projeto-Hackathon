@@ -13,8 +13,8 @@
 
 <ul>
     <li>Diogo: Tradução, textos</li>
-    <li>Carlos: Ideias, imagens e html</li>
-    <li>Guilherme: css,</li>
+    <li>Carlos: Ideias, imagens</li>
+    <li>Guilherme: css e html</li>
     <li>Kauã: JavaScript</li>
 
 </ul>
