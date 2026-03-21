@@ -19,6 +19,15 @@
 
 </ul>
 
+# A fazer 
+
+<ul>
+    <li>Imagem da logo</li>
+    <li>Colocar textos</li>
+    <li>Colocar fontes</li>
+    <li>Estilizar</li>
+</ul>
+
 # Autores
 
 <ul>
