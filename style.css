@@ -1,0 +1,36 @@
+* {     /*Configurações gerais*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font: normal 15pt arial;
+}
+
+body {  /*Configurações do body*/
+    background: #ff8400;
+    background: linear-gradient(180deg, rgba(255, 132, 0, 1) 0%, rgba(230, 119, 0, 1) 16%, rgba(0, 0, 0, 1) 100%);
+}
+
+header .logoGrupo {         /*Configurações da logo do grupo*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(7, 6, 6, 0.6);   
+    margin: 20px;
+    border-radius: 20px;
+    height: 12vh;
+    width: 20vw;
+    transition: 1.3s ease;      /*Deixa os bagui entrar devagarinho*/
+}
+header .logoGrupo :hover {      /*Hover da logo*/
+    transform: scale(1.2);      /*Bagulho que aumenta o tamanho*/
+}
+
+header .logoGrupo h1 {      /*Configurações do H1 que é o nome do grupo*/
+    transition: 1.3s ease;      /*Deixa os bagui entrar devagarinho*/
+    padding: 0;
+    color: orangered;
+    margin: 0;
+    font-size: 2.5rem;
+    height: auto;
+    width: auto;
+}
