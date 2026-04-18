@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 * {     /*Configurações gerais*/
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
 
 body {  /*Configurações do body*/
     background: #ff8400;
+    background-size: cover;
     background: linear-gradient(180deg, rgba(255, 132, 0, 1) 0%, rgba(230, 119, 0, 1) 16%, rgba(0, 0, 0, 1) 100%);
 }
 
@@ -19,18 +22,19 @@ header .logoGrupo {         /*Configurações da logo do grupo*/
     border-radius: 20px;
     height: 12vh;
     width: 20vw;
-    transition: 1.3s ease;      /*Deixa os bagui entrar devagarinho*/
+    transition: 1.2s ease;      /*Deixa os bagui entrar devagarinho*/
 }
 header .logoGrupo :hover {      /*Hover da logo*/
     transform: scale(1.2);      /*Bagulho que aumenta o tamanho*/
 }
 
 header .logoGrupo h1 {      /*Configurações do H1 que é o nome do grupo*/
-    transition: 1.3s ease;      /*Deixa os bagui entrar devagarinho*/
+    transition: 0.4s ease;      /*Deixa os bagui entrar devagarinho*/
     padding: 0;
-    color: orangered;
+    color: rgb(255, 69, 0);
     margin: 0;
-    font-size: 2.5rem;
+    font-family:"Pixelify Sans", sans-serif;
+    font-size: 2.9rem;
     height: auto;
     width: auto;
 }
